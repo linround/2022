@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+# 镜像命名
+  app:
+  # 应用命名
+    image: node:12-alpine
+    # 应用容器命令行 
+    command: sh -c "yarn install && yarn run dev"
+    # 外部端口与容器端口映射
+    ports:
+      - 3000:3000
+      # 本地文件位置
+    working_dir: /app
+    # 容器卷
+    volumes:
+      - ./:/app
+      # 链接mysql的环境变量值
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: root
+      MYSQL_PASSWORD: secret
+      MYSQL_DB: todos
+# mysql镜像
+  mysql:
+  # mysql容器命名
+    image: mysql:5.7
+    # mysql容器卷
+    volumes:
+      - todo-mysql-data:/var/lib/mysql
+      # mysql信息
+    environment: 
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: todos
+
+
+# 整个应用卷
+volumes:
+  todo-mysql-data:

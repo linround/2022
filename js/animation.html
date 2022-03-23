@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="item">item</div>
+</body>
+</html>
+<style>
+    .item {
+        height: 100px;
+        width: 200px;
+        background-color: yellowgreen;
+        transition: transform 2.2s ease, background-color 6.5s ease;
+        transform-style: preserve-3d;
+        position: relative;
+        
+  animation: rotate-y 5s ease-in-out infinite;
+    }
+    .item::after{
+      position: absolute;
+      content: '';
+      inset: 0em 0em 50% 50%;
+      border: 5px solid red;
+  border-radius: 5px 20px;
+    }
+    .item::before{
+      position: absolute;
+      content: '';
+      inset: 50% 50% 0em 0em ;
+      border: 5px solid blue;
+  border-radius: 5px 20px;
+    }
+    .item:hover{
+        transition-timing-function: var(--_bounce-ease);
+    transition-duration: .4s;
+    background-color: black;
+    color: wheat;
+    transform: rotateY(-210deg) rotateX(30deg);
+    box-shadow: 10px;
+    }
+    @keyframes rotate-y {
+  50% {
+    transform: rotateY(100deg) rotateX(10deg);
+  }
+}
+</style>

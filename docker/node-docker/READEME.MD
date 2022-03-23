@@ -1,0 +1,1 @@
+要提高构建的性能，请通过将 .dockerignore 文件添加到上下文目录来排除文件和目录。为了改善上下文加载时间，创建一个.dockerignore文件并node_modules在其中添加目录;

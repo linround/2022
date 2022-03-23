@@ -5,8 +5,8 @@
     <div>x: {{x}}</div>
     <div>y:{{y}}</div>
     <button @click="add">addCount</button>
-    <input type="text" v-model="title" @keydown.enter="addTodo" />
-    <button v-if="active < all" @click="clear">清理</button>
+    <input  type="text" v-model="title" @keydown.enter="addTodo" />
+    <button v-focus v-if="active < all" @click="clear">清理</button>
     <ul v-if="todos.length">
       <li v-for="todo in todos">
         <input type="checkbox" v-model="todo.done" />

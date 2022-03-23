@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bin-cmd-test-lin": "^1.0.0",
+    "ncp": "^2.0.0",
+    "ywc-cli": "^1.0.4"
+  }
+}

@@ -6,6 +6,7 @@ import Toggle from '../pages/toggle.vue'
 import Count from '../pages/count.vue'
 import Element from '../pages/element.vue'
 
+import NProgress from 'nprogress' // progress bar
 const routes = [
     {
         path: '/',
@@ -41,5 +42,16 @@ const routes = [
 const router = createRouter({
     history:createWebHashHistory(),
     routes
+})
+console.log(NProgress,'-------------nprogress')
+router.beforeEach(async (to, from, next) => {
+    // start progress bar
+    NProgress.start()
+    next()
+})
+
+router.afterEach(() => {
+    // finish progress bar
+    NProgress.done()
 })
 export default router

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+var birth = 2000;
+const obj = {
+  birth: 2001,
+
+  getAge: function () {
+    //   2001
+    // this是运行时指向的对象
+    return 2021 - this.birth;
+  },
+
+  getAge1: () => {
+    //   2000
+      return 2021 - this.birth
+  },
+
+
+  getAge2: function () {
+    var myFun = function () {
+        // 2000 外部
+      return 2021 - this.birth;
+    };
+    return myFun();
+  },
+
+
+  getAge3: function () {
+    //   2001 内部
+    var myFun = () => 2021 - this.birth;
+    return myFun();
+  },
+};
+
+console.log(obj.getAge()); //20 内部
+console.log(obj.getAge1()); //21 外部
+console.log(obj.getAge2()); //21 外部
+console.log(obj.getAge3()); //20 内部
+
+var obj1 = { birth: 2002 };
+console.log(obj.getAge.call(obj1));  //19 obj1
+console.log(obj.getAge1.call(obj1)); //21 外部
+console.log(obj.getAge2.call(obj1)); //21 外部
+console.log(obj.getAge3.call(obj1)); //19 // obj1
+console.log(obj.getAge.bind(obj1)); 
+</script>

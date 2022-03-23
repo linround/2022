@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" id="css_base" href="./scroll.css">
+    <script src="./scroll.js"></script>
+</head>
+<body>
+    <!-- <section class="gui-toast-group">
+        <output role="status">Wizard Rose added to cart</output>
+        <output role="status">Self Watering Pot added to cart</output>
+      </section>
+      <button onclick="Toast('Wizard Rose added to cart')">add</button>
+
+ -->
+
+
+
+
+
+
+
+      <div style="width: 300px;display: inline-block; border-color:blue; border-style:solid; border-width:1px;">
+        
+        <span id="longspan" style=" display: inline-block; ">Long span that wraps within this div.</span>
+      </div>
+      
+      <div id="box" style="position: absolute; display: inline-block; border-color: red; border-width: 1px; border-style: solid; z-index: 10">
+      </div>
+      
+      <script type="text/javascript">
+        var box = document.getElementById("box");
+        var longspan = document.getElementById("longspan");
+        box.style.left = longspan.offsetLeft + document.body.scrollLeft + "px";
+        box.style.top = longspan.offsetTop + document.body.scrollTop + "px";
+        box.style.width = longspan.offsetWidth + "px";
+        box.style.height = longspan.offsetHeight + "px";
+        console.log('longspan.offsetLeft:',longspan.offsetLeft)
+        
+        console.log('longspan.offsetTop:',longspan.offsetTop)
+        
+        console.log('longspan.offsetWidth:',longspan.offsetWidth)
+        
+        console.log('longspan.offsetHeight:',longspan.offsetHeight)
+      </script>
+</body>
+</html>
