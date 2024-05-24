@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T08:27:16.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="4zzU3mzcOHy7_PE93cQI" version="24.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T08:41:08.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="GZS_xfoO_OJtJE6iR8_F" version="24.4.7" type="github">
   <diagram name="第 1 页" id="dfqK8mmbEs_2lfWQiHWl">
     <mxGraphModel dx="3033" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iXKEjrRT0Iqb4kzwW5TB-1" target="iXKEjrRT0Iqb4kzwW5TB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-50" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iXKEjrRT0Iqb4kzwW5TB-1" target="iXKEjrRT0Iqb4kzwW5TB-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-1" value="登录页" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -70,7 +73,7 @@
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-10" value="设备监测" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-330" y="535" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-11" value="报警日志" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-11" value="报警日志" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-200" y="535" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-12" value="历史数据" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CC0606;strokeColor=#003333;" vertex="1" parent="1">
@@ -129,6 +132,21 @@
         </mxCell>
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-48" value="无UI" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFDC6B;fontColor=#003333;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-100" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-52" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iXKEjrRT0Iqb4kzwW5TB-49" target="iXKEjrRT0Iqb4kzwW5TB-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-54" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iXKEjrRT0Iqb4kzwW5TB-49" target="iXKEjrRT0Iqb4kzwW5TB-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-49" value="系统设置" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-51" value="账户信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-53" value="修改密码" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="100" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
