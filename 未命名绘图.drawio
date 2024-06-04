@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T03:23:20.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="m9qeBcWIpsR2JCOfqyoZ" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T03:24:41.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="SvHDUC36gZfLcMeI_2wX" version="24.4.13" type="github">
   <diagram name="第 1 页" id="dfqK8mmbEs_2lfWQiHWl">
     <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,7 +97,7 @@
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-26" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iXKEjrRT0Iqb4kzwW5TB-23" target="iXKEjrRT0Iqb4kzwW5TB-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-23" value="报警情况" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-23" value="设备监测详情" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="-350" y="670" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-25" value="报警记录" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
