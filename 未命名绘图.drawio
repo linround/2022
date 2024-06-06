@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T06:44:16.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="PD6sz7bYBLHK3QEeSTya" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T09:00:30.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="iIdCM-tTyeG8Kr2ljhTC" version="24.4.13" type="github">
   <diagram name="第 1 页" id="dfqK8mmbEs_2lfWQiHWl">
     <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-15" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial, sans-serif; text-align: left; text-wrap: nowrap;&quot;&gt;手术室监测&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF63;" parent="1" vertex="1">
           <mxGeometry x="-460" y="540" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-21" value="报警记录" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-21" value="报警记录&lt;br&gt;（处理记录）&lt;br&gt;（维保处理详情）&lt;br&gt;（去处理）" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="-560" y="810" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-26" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iXKEjrRT0Iqb4kzwW5TB-23" target="iXKEjrRT0Iqb4kzwW5TB-25" edge="1">
@@ -97,7 +97,7 @@
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-23" value="设备监测详情" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="-350" y="670" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-25" value="报警记录" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-25" value="报警记录&lt;br&gt;（处理记录）&lt;br&gt;（维保处理详情）&lt;br&gt;（去处理）" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="-370" y="800" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-27" value="手术室监测" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF63;" parent="1" vertex="1">
@@ -106,7 +106,7 @@
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-29" value="设备监测" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="354" y="460" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-32" value="报警日志" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="iXKEjrRT0Iqb4kzwW5TB-32" value="报警记录&lt;br&gt;（处理记录）&lt;br&gt;（维保处理详情）&lt;br&gt;（去处理）" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="480" y="460" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iXKEjrRT0Iqb4kzwW5TB-34" value="历史数据" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CC0606;" parent="1" vertex="1">
