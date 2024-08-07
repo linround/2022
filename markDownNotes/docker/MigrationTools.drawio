@@ -161,11 +161,17 @@
         <mxCell id="-wgQAcxF5CL5JROqrJL2-1" value="demo 组件开始渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1450" y="2420" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-wgQAcxF5CL5JROqrJL2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-wgQAcxF5CL5JROqrJL2-2" target="-wgQAcxF5CL5JROqrJL2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-wgQAcxF5CL5JROqrJL2-2" value="deferredQuery &lt;br&gt;被创建了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1250" y="2420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-wgQAcxF5CL5JROqrJL2-4" value="SearchResult组件执行渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1050" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-wgQAcxF5CL5JROqrJL2-6" value="loading组件执行渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="2530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
