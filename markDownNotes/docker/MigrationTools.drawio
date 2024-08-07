@@ -194,10 +194,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-wgQAcxF5CL5JROqrJL2-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="-1420" y="2590" width="220" height="20" as="geometry" />
+          <mxGeometry x="-1420" y="2580" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-wgQAcxF5CL5JROqrJL2-19" value="这个过程属于延时渲染的部分" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1340" y="2635" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1355" y="2630" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
