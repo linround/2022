@@ -214,6 +214,21 @@
         <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1020" y="3210" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vzk_b0EgOVSdQ6BtJoA9-6" target="Vzk_b0EgOVSdQ6BtJoA9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-6" value="requestHostCallback&lt;div&gt;scheduledHostCallback被赋值（flushWork）&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1530" y="3025" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vzk_b0EgOVSdQ6BtJoA9-7" target="Vzk_b0EgOVSdQ6BtJoA9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-7" value="schedulePerformWorkUntilDeadline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1230" y="3050" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-9" value="performWorkUntilDeadline" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-895" y="3050" width="195" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
