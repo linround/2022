@@ -213,6 +213,14 @@
         <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vzk_b0EgOVSdQ6BtJoA9-2" target="Vzk_b0EgOVSdQ6BtJoA9-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vzk_b0EgOVSdQ6BtJoA9-2" target="Vzk_b0EgOVSdQ6BtJoA9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-19" value="存在任务时，继续异步执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vzk_b0EgOVSdQ6BtJoA9-18">
+          <mxGeometry x="-0.0793" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-2" value="flushWork&lt;br&gt;flushWork返回值是一个布尔值，表明是否还存在调度任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-886.25" y="3210" width="177.5" height="60" as="geometry" />
         </mxCell>
