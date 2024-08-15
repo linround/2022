@@ -199,8 +199,16 @@
         <mxCell id="-wgQAcxF5CL5JROqrJL2-19" value="这个过程属于延时渲染的部分" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1355" y="2630" width="90" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vzk_b0EgOVSdQ6BtJoA9-1" target="Vzk_b0EgOVSdQ6BtJoA9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-17" value="返回的布尔值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vzk_b0EgOVSdQ6BtJoA9-16">
+          <mxGeometry x="0.0608" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-1" value="workLoop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-857.5" y="3330" width="120" height="60" as="geometry" />
+          <mxGeometry x="-894.06" y="3330" width="193.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vzk_b0EgOVSdQ6BtJoA9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vzk_b0EgOVSdQ6BtJoA9-2" target="Vzk_b0EgOVSdQ6BtJoA9-1">
           <mxGeometry relative="1" as="geometry" />
